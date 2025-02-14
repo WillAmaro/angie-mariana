@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Indie+Flower&family=Offside&family=Pacifico&family=Permanent+Marker&display=swap');
+
+
+.container-layout {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  //font-family: "Pacifico", serif;
+  background-image: url("/Valentin.jpg");
+  background-size: cover;
+  background-repeat: "no-repeat";
+  font-style: normal;
+
+}
+
+.container-drawer {
+  width: 75%;
+  height: 100px;
+ // background-color: rgba(242, 133, 142, 0.3);
+  background-image: linear-gradient(135deg, #f25757, #f2858e);
+
+  border-radius: 30px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 10px;
+  font-family: "Offside", serif;
+  font-weight : "bold";
+  font-size: 14px;
+  z-index: 100;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.item-drawer {
+  width: 20%;
+  border-radius: 25px;
+  height: 70%;
+  position: relative;
+  z-index: 1;
+ // background-image: linear-gradient(135deg, #f25757, #f2858e);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 0rem;
+}
+
+@media (max-width: 480px) {
+  .container-drawer {
+    width: 90%;
+    height: 80px;
+  }
+
+  .item-drawer {
+    width: 30%;
+    height: 90%;
+  }
+}
