@@ -53,14 +53,13 @@ function Counter() {
     <div
       style={{
         width: "100%",
-        height: "100%",
+        height: "100vh",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        justifyContent: "center",
-        marginBottom: "120px",
+        justifyContent: "center",   
         gap: "3rem",
-        marginBottom:"120px"
+ 
       }}
     >
       {/* Nuevas cajas para mostrar los días faltantes hasta el 3 de cada mes */}

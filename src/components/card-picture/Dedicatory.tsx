@@ -1,11 +1,22 @@
 export default function Dedicatory() {
     return (
+
+
+        <div style = {{
+            width   :"100%",
+            height :"100vh",
+            display:"flex",
+            justifyContent:"center",
+            alignItems:"center"
+        }}>   
         <div style={{ 
             backgroundColor: '#f0f8ff', 
             borderRadius: '10px', 
             textAlign: 'center', 
             width:"90%",
             boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+            padding:"2%",
+            marginBottom:"100px"
         }}>
             <h2 style={{  backgroundImage: 'linear-gradient(135deg, #f25757, #f2858e)',
                 WebkitBackgroundClip: 'text',
@@ -20,6 +31,7 @@ export default function Dedicatory() {
                 y por todo lo que hemos vivido juntos. Cada instante junto a ti queda grabado en mi corazón 
                 de una manera profunda e imborrable. Eres mi todo, mi amor.
             </p>
+        </div>
         </div>
     );
 }
